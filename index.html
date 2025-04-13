@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Delicious Eats</h1>
+    <input type="text" id="search" placeholder="Search for restaurants or dishes">
+    <button id="toggle-theme">Toggle Theme</button>
+  </header>
+
+  <main>
+    <section id="categories">
+      <h2>Food Categories</h2>
+      <div class="category">Pizza 🍕</div>
+      <div class="category">Burgers 🍔</div>
+      <div class="category">Drinks 🥤</div>
+    </section>
+
+    <section id="restaurants">
+      <h2>Popular Restaurants</h2>
+      <div class="restaurant">
+        <h3>Pizza Palace</h3>
+        <p>Specialty: Pepperoni Pizza</p>
+        <button onclick="addToCart('Pepperoni Pizza')">Order Now</button>
+      </div>
+      <div class="restaurant">
+        <h3>Burger Shack</h3>
+        <p>Specialty: Classic Burger</p>
+        <button onclick="addToCart('Classic Burger')">Order Now</button>
+      </div>
+    </section>
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <button id="checkout">Checkout</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

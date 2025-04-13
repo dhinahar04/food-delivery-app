@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+#search {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.category, .restaurant {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  transition: transform 0.3s;
+}
+
+.category:hover, .restaurant:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e65b4f;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#checkout {
+  background-color: #28a745;
+  margin-top: 1rem;
+}
+
+#checkout:hover {
+  background-color: #218838;
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+  background-color: #333;
+  color: white;
+}
+
+.dark-theme header {
+  background-color: #444;
+}
+
+.dark-theme button {
+  background-color: #555;
+}
+
+.dark-theme button:hover {
+  background-color: #666;
+}
